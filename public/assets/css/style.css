@@ -1,0 +1,21 @@
+.card_empleados{
+    background-color: #f6f6f6;
+    margin: auto auto;
+    width: 90%;
+    max-width: 98%;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 22px #00000038;
+}
+.login-page {
+    background-color: #ededed;
+}
+.footer {
+    background-color: #f8f9fa; 
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    padding: 20px 0; 
+    border-top: 1px solid #dee2e6; 
+}
