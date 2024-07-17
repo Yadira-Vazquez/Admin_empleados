@@ -34,7 +34,6 @@ class Home extends BaseController
                         'isLoggedIn' => true
                     ];
                     session()->set($data);
-                    log_message('info', 'Datos de la sesión: ' . print_r(session()->get(), true));
 
                     return redirect()->to('/inicio');
                 } else {
